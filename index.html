@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body"   data-bs-theme="dark">
+        <div class="container-fluid" >
+          <a class="navbar-brand" href="/">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/about.html">About us</a>
+              </li>
+    
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  more
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">become a seller</a></li>
+                  <li><a class="dropdown-item" href="#">Advertise</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">download app</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        login
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h1 class="modal-title fs-5" id="exampleModalLabel">Enter your details</h1>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                                      <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </form>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">submit</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="padd">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://officialonepiece.com/cdn/shop/files/Official_ONE_PIECE_MERHCANDISE_logo_1200_x_628px_1200x1200.png?v=1689949774" class="d-block w-100" height="620px" alt="merch">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>One piece Merchandise</h5>
+              <p>Best fabric in town.</p>
+              <button class="btn btn-danger"><a href="/electronics.html">Electronics</a></button>
+              <button class="btn btn-primary"><a href="#foot-wear">Foot-wear</a></button>
+              <button class="btn btn-success"><a href="#toys">Toys</a></button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://www.mangakochbuch.com/wp-content/uploads/2018/02/mugiwara-iloveimg-compressed.jpg" class="d-block w-100" height="620px" alt="store">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Our store</h5>
+              <p>Welcome.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://i.insider.com/6078a2ed74da0300181e1f7e?width=1000&format=jpeg&auto=webp" class="d-block w-100" alt="cloths" height="620px">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>from clothes to footwear all in one place</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+      <center>
+       <div class="h">
+        <h1>Welcome to the world's finest shop</h1>
+       </div>
+    </center>
+
+ <div class="pad">
+    <div class="container">
+        <div class="box1" id="foot-wear"><h4>Clothes and foot-wears</h2><br>
+        <img src="https://i.insider.com/6078a2ed74da0300181e1f7e?width=1000&format=jpeg&auto=webp" alt="container image" height="200px" width="250px">
+        </div>
+        <div class="box">
+            <img src="https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/49cd4d417d944ad7a690af5e00928f16_9366/court-revival-shoes.jpg" height="250px" width="240px" alt="Shoes 1">
+            <p class="price">$79.99</p>
+            <button class="btn btn-danger">Buy</button>
+        </div>
+        <div class="box">
+            <img src="https://store.teamliquid.com/cdn/shop/products/LiquidxNarutoKakashiShortSleeveTeeLXN0103012221_TL0780_683x1024.jpg?v=1693340432" height="250px" width="240px" alt="Shoes 1">
+            <p class="price">$79.99</p>
+            <button class="btn btn-danger">Buy</button>
+        </div>
+ 
+        
+        <div class="box">
+            <img src="https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/fdea8c3e-bba5-4e31-8a1f-276632e74825/width=450/00005-930445102.jpeg" height="250px" width="240px" alt="Shoes 1">
+            <p class="price">$1119.99</p>
+            <button class="btn btn-danger">Buy</button>
+        </div>
+        <div class="box">       
+             <img src="https://m.media-amazon.com/images/I/61sqQiR4MmL._AC_SR175,263_QL70_.jpg" height="250px" width="240px" alt="Shoes 1">
+             <p class="price">$999.99</p>
+             <button class="btn btn-danger">Buy</button>
+        </div>
+    </div>
+</div>
+
+<div class="pad">
+  <div class="container">
+      <div class="box1" id="toys"><h4>Toys and Home decorations</h4><br>
+      <img src="https://content.jdmagicbox.com/comp/ahmedabad/f9/079pxx79.xx79.151211143928.b8f9/catalogue/toyzapp-ahmedabad-u9u4v.jpg" alt="container image" height="200px" width="250px">
+      </div>
+      <div class="box">
+          <img src="https://thecomicbookstore.in/wp-content/uploads/2022/11/TCBS3139.png.webp" height="250px" width="240px" alt="Shoes 1">
+          <p class="price">$79.99</p>
+          <button class="btn btn-danger">Buy</button>
+      </div>
+      <div class="box">
+          <img src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2022%2F09%2Fone-piece-50-volume-comic-book-release-info-0.jpg?w=960&cbr=1&q=90&fit=max" height="250px" width="240px" alt="Shoes 1">
+          <p class="price">$79.99</p>
+          <button class="btn btn-danger">Buy</button>
+      </div>
+
+      
+      <div class="box">
+          <img src="https://toysandjoys.com/images/promo/3/2022_Web_Site_Home_Page_e1op-7l.jpg" height="250px" width="240px" alt="Shoes 1">
+          <p class="price">$1119.99</p>
+          <button class="btn btn-danger">Buy</button>
+      </div>
+      <div class="box">       
+           <img src="https://i.pinimg.com/474x/f9/27/40/f927409df51dd371a12c9ef40514b3a6.jpg" height="250px" width="240px" alt="Shoes 1">
+           <p class="price">$999.99</p>
+           <button class="btn btn-danger">Buy</button>
+      </div>
+  </div>
+</div>
+
+<div class="contact" id="contact">
+  <div class="formbox">
+      <h1 align="center" font-size="60px" color="white">Contact us</h1>
+      <form action="mailto:nooman133yousuf@gmail.com/get" method="get" enctype="text/plain">
+          
+          <input type="text" name="firstName" id="firstName" placeholder="Enter first name" size="40" ><br>
+          <input type="text" name="secondName" id="secondName" placeholder="Enter second name" size="40" ><br>
+          <input type="email" name="email" id="email" placeholder="Enter Email" size="40"><br>
+          <textarea rows="8" cols="50" placeholder="Enter your comment" font-size="30px"></textarea>
+          <br>
+    
+          <button type="submit" class="btn btn-success" formaction="mailto:nooman133yousuf@gmail.com/post" formmethod="post" size="50px">Submit</button>
+          <button type="reset" class="btn btn-success">Reset</button>
+          </form>               
+</div>
+</div>
+<div class="copyright" ><h4> Contact me <a rel="me" href="https://github.com/nooman57554" class="cp">@&lt;&lt;&lt;&copy;Nooman Yousuf&gt;&gt;&gt;</a></h4>
+</div>  
+    
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
