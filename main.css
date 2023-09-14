@@ -31,8 +31,8 @@ body{
     flex-direction: row;
 }
 .box1{
-    height: 400px;
-    width: 250px;
+    height: 30%px;
+    width: 19%;
     text-align: center;
     padding-top: 100px;
 }
@@ -113,8 +113,8 @@ a{
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 600px;
-    width: 600px;
+    height: 50%;
+    width: 45%;
     box-sizing: border-box;
     border-radius: 10px;
     border: 2px solid black;
